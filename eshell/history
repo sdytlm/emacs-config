@@ -1,0 +1,67 @@
+ls
+cd Desktop/
+ls
+cd Desktop/
+ls
+cd ..
+cd /home/min.li/Downloads/
+ls
+ls Wa*
+mkisofs -o cd.iso WacomTablet_6.3.11-3a.dmg
+cp cd.iso /data/images/osx-10.9/
+cd /data/images/osx-10.8.2-new/
+cd ../osx-10.9/
+ls
+ls
+cd ..
+ls
+vim init-speedbar.el 
+ls
+ls
+ls
+cd ..
+ls
+ls
+cd ..
+cd /home/min.li/
+ls
+cd Downloads/qemu-2.5.0/
+ls
+ls
+cd ~/.emacs.d/
+ls
+grep hs-minor-mode -rws ./
+ls
+cd lisp/editing-utils/
+ls
+cd ..
+ls
+grep linux -rws ./
+grep require -rws ./
+grep "c-default-style" -rws ./
+ls
+git init
+cd ..
+git init
+git add init.el 
+git commit -m "add init.el"
+git remote add origin https://github.com/sdytlm/emacs-config.git
+git push -u origin master
+ls
+git add lisp/
+git commit -a -m "add other lisp config"
+git push
+ls
+cd lisp/
+ls
+cat init-theme.el 
+ls
+cd ..
+ls
+cd themes/
+ls
+cd emacs-color-theme-solarized/
+ls
+cd ..
+cd ..
+ls

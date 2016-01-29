@@ -1,0 +1,56 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/root/.emacs.d/lisp/" . "ide-utils/")
+ ("/root/.emacs.d/" . "lisp/")
+ ("/root/" . ".emacs.d/")
+ ("/home/min.li/Downloads/" . "qemu-2.5.0/")
+ ("/home/min.li/" . "Downloads/")
+ ("/home/" . "min.li/")
+ ("/" . "home/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/root/.emacs.d/lisp/"
+ "/root/.emacs.d/lisp/ide-utils/"
+ "/root/.emacs.d/"
+ "/home/min.li/Downloads/qemu-2.5.0/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init-theme.el"
+ "init-org.el"
+ "init-gdb.el"
+ "init-editing-utils.el"
+ "init-gtags.el"
+ "init-ide-utils.el"
+ "init-yasnippet.el"
+ "init.el"
+ "init-speedbar.el"
+ "vl.c"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/root/.emacs.d/lisp/" (22187 61663 118092 49000) "init-theme.el" "init-ido.el" "init-speedbar.el" "../" "init-tabbar.el" "init-editing-utils.el" "init-ide-utils.el" "./" "ide-utils/" "init-exec-path.el" ".git/" "init-markdown.el" "init-yasnippet.el" "init-utils.el" "init-elpa.el" "editing-utils/" "init-org.el")
+
+ ("/root/.emacs.d/" (22187 61675 811444 253000) "lisp/" "../" "themes/" "elpa/" "smex-items" "recentf" "auto-save-list/" "./" ".git/" "ido.last" "eshell/" "snippets/" "recentf~" "url/" "init.el")
+
+ ("/root/.emacs.d/lisp/ide-utils/" (22187 58465 789616 943000) "init-gtags.el" "../" "./")
+
+ ("/home/min.li/Downloads/qemu-2.5.0/" (22187 57659 502567 612000) "contrib/" "translate-all.h" "qapi-schema.json" "tcg-runtime.c" "qemu-timer.c" "block.c" "device_tree.c" "target-arm/" "crypto/" "replay/" "memory_mapping.c" "Makefile" "kvm-all.c" "GRTAGS" "cpu-exec-common.c" "dma-helpers.c" "target-sparc/" "slirp/" "qemu-char.c" "configure" "tci.c" "linux-user/" "target-xtensa/" "dtc/" "target-lm32/" "translate-all.c" "xen-common-stub.c" "qemu-doc.texi" "README" "po/" "hmp-commands.hx" "iohandler.c" "ui/" "pc-bios/" "MAINTAINERS" "roms/" "qemu-options.h" "cputlb.c" "gdb-xml/" "qemu-io.c" "os-posix.c" "tpm.c" "backends/" "fsdev/" ".gitignore" "Makefile.objs" "target-i386/" "migration/" "qjson.c" "xen-hvm.c" "bsd-user/" "exec.c" "nbd.c" "qemu-nbd.c" "qapi/" "bt-vhci.c" "cpus.c" "aio-posix.c" "fpu/" "qemu-tech.texi" "blockdev-nbd.c" "target-s390x/" ".mailmap" "include/" "qemu-img.texi" "os-win32.c" "memory.c" "qemu-img.c" "target-openrisc/" "default-configs/" "LICENSE" "stubs/" "monitor.c" "qemu-ga.texi" "trace/" "arch_init.c" "libdecnumber/" "qga/" "qmp-commands.hx" "VERSION" "../" "tcg/" "qemu-options.hx" "rules.mak" "blockjob.c" "pixman/" "target-m68k/" "COPYING" "hmp.c" "target-moxie/" "dump.c" "trace-events" "balloon.c" "scripts/" "qdev-monitor.c" "target-alpha/" "qemu-io-cmds.c" "Makefile.target" "CODING_STYLE" "qdict-test-data.txt" "numa.c" "net/" "bt-host.c" "kvm-stub.c" "hw/" "COPYING.LIB" "qemu-log.c" "target-mips/" "#vl.c#" "qobject/" "thread-pool.c" "disas.c" "main-loop.c" "target-sh4/" "spice-qemu-char.c" "iothread.c" "target-unicore32/" "version.rc" ".dir-locals.el" "gdbstub.c" "user-exec.c" "bootdevice.c" "target-microblaze/" "page_cache.c" "ioport.c" "qemu-bridge-helper.c" "disas/" "module-common.c" "xen-common.c" "qtest.c" "qom/" "qemu-nbd.texi" "hmp-commands-info.hx" "GTAGS" "audio/" "util/" ".exrc" "qemu-options-wrapper.h" "thunk.c" ".travis.yml" "block/" "translate-common.c" "qemu-seccomp.c" "qmp.c" "tests/" ".#vl.c" "xen-mapcache.c" "qemu.sasl" "aio-win32.c" "async.c" "target-ppc/" "Changelog" "xen-hvm-stub.c" "softmmu_template.h" "HACKING" "target-cris/" "GPATH" "docs/" "target-tricore/" "cpu-exec.c" ".gitmodules" "./" "vl.c" "accel.c" "linux-headers/" "target-tilegx/" "blockdev.c" "hmp.h" "qemu-img-cmds.hx" "qemu.nsi" "device-hotplug.c")
+
+ ("/root/" (22187 49422 911544 529000) ".bashrc" ".python_history" ".xauthZuyQdY" ".config/" ".xauthOpVDHo" "plugin/" ".xauthq0V1ZI" ".bash_history" ".xauthJUplou" ".xauthA13ipi" ".profile" ".xauthmE8LyX" ".xauthmAHDLY" ".xauthbGs4zD" "Desktop/" "emacs.d-backup/" ".xauthYKPyu1" ".xauthgxVI30" "messages-10.9-vxe-2.0" ".gitconfig" ".xauthHwlf3T" ".xauthXu7RYO" ".xauthwZgXGf" ".xauthTN3C0a" "bin/" ".xauth4M6BIa" "10.9-vxe-1.4-message" ".xauthlt5Zz3" ".xauth0lnqAD" ".xauthz1bJFP" ".xauthR3fOfu" ".xauthE1PFr7" ".xauth9os3l8" ".xauthqBFzjn" ".xauthVS9kQ5" ".xauth5XqT48" "../" ".xauthhkLIU7" "inst-sys/" ".dbus/" ".xauthn3qm2a" ".gem/" ".xauthpz1Vs8" "kvm_trace_pipe.16028.txt" ".fltk/" ".xauthd8odpl" ".lesshst" ".xauthhnhFv5" ".xauth4PlsFN" ".emacs.d/" ".xauth8PaGnR" ".xauth0GkRni" "workspace/" ".subversion/" ".xauthQWomLa" ".xauthAheT58" ".xauth4Z1F69" ".xauth8wj5Vz" ".xauthQu4DOv" "haha" ".viminfo.tmp" ".xauthZip0nu" ".xauthcb7me4" ".vim/" "./" ".xauthcCt8av" "config-file" ".xauthMv70Cu" ".xauthh2tex2" ".xauthxcdZL0" ".xauthVW6cwH" ".xautho6HB7S" ".Xauthority" ".xauth3hczBG" ".mozilla/" ".xauthBSGTly" ".xauth9wIUmp" ".octave_hist" ".xauthKr5uLg" ".xauthDftBwF" ".xauthnB8Ull" "USB.txt" ".xauthj9rLWf" ".xauthh3QaN4" ".xauthaIGbTy" ".pyhistory" ".xauthT0abNr" ".xauthjgCTXp" ".xauthxxce4a" ".xauthTroWiv" ".xauth9c9ZuY" ".emacs~" ".xauthujzp2v" ".java/" ".xauthd5ssrC" ".xauthaphIwP" ".ssh/" ".xautheWgphg" ".xauthsIOynF" ".xauthYOvWyj" ".xauthm67GdX" ".cache/" ".xauthBPVelQ" ".xauth4vUasV" ".xauth0jhoWk" ".xauthR4iARg" ".xauth5KqqjZ" ".xauthUhDko4" ".xauth9Ukl2f" ".xauthjiEC80" "work/" ".xauthfMUNfX" ".xauthbsnkEz" ".xauthTuiSrp" ".xauthfIvq0G" ".viminfo" ".pip/" ".xauthJcS83e" ".xauthPpvBww" ".aliedit/" ".xauthvGnJnO" ".debug/" ".xauthtVR0zc" ".python-eggs/" ".xauth5jA0xt" ".xauth0tvFFt" "tags" ".local/" ".vimrc" "haha.txt" ".xauthFoHOwy" ".xauthjYVLZj" "test" ".xauth1D50Db" ".xauthCPgqWn" ".xauthvx42Yg" ".xauth7XJxjB" ".xauthQSW1Yd" ".presage/" ".xauthHkwvqI" ".distlib/" ".xauthPawIos" ".xauthTK4LdX" ".xauthT7JtFl" ".xauthicUlEH" ".xauthCjCqiv" ".xauthrfy21X" ".xauthxKALBD" ".gnupg/" ".xauthogvsdH" ".xauthBEVe5m" ".xauth2dSVpe" ".xauthem0EMK" ".xauthi8v69C" ".xauthodV6hR" ".xauthJwsr1c" ".xauthXNfOWg" ".xauthldpevc")
+
+ ("/home/min.li/" (22187 38343 92891 242000) "Templates/" ".gnu-emacs-custom" ".ssh/" ".xim.template" "VirtualBox VMs/" ".ICEauthority" ".pyhistory" "vxe/" ".bash_history" ".config/" "kvm-guest-drivers-windows/" "Documents/" ".adobe/" ".pki/" "Pictures/" "public_html/" ".local/" ".gnu-emacs-custom~" ".gem/" ".gitconfig" "vxe-vxe-backup/" ".viminfo" "vxe-vga.tar.gz" ".subversion/" "Music/" ".fonts/" "haha.txt" "build/" "v86d/" ".inputrc" "vxe.tar.gz" "gi_vmmi_config/" "workspace/" "../" "Desktop/" "vxe-vga/" "summary.out" ".emacs" ".dbus/" "Downloads/" ".gnome/" "mk/" ".mozilla/" "linux-3.4.63-2.44/" ".esd_auth" "mas_vmmi-dev/" ".cache/" "gi_vmmi_config.tgz" "kernel.tar.gz" ".gnupg/" "./" ".xsession-errors-:0" ".macromedia/" ".presage/" "rpmbuild/")
+
+ ("/home/min.li/Downloads/" (22187 41272 787247 446000) "pciutils-3.2.0.tar.xz" "review_form.txt" "CentOS-4.4-x86_64-binDVD.torrent" "linux-4.1.13.tar.xz" "NIW/" "pciutils-endianh.patch" "ati-driver.zip" "pciutils-ocloexec.patch" "linux-4.1-rc3/" "color-theme-6.6.0.tar.gz" "qemu-2.5.0.tar.bz2" "stock-statement.pdf" "faculty.zip.tar" "qemu-2.5.0/" "color-theme-6.6.0/" "pciutils-3.2.0-2.1.2.src.rpm" "wmctrl-1.07-1.el6.rf.x86_64.rpm" "rb20976.patch" "WacomTablet_6.3.11-4a.exe" "vmwarefb-for-kernel2.6.29.tar.gz" "Python-2.7.10.tgz" "qemu-2.4.1.tar.bz2" "H1B/" "global-6.5.2/" "VirtualBox-5.0-5.0.6_103037_openSUSE132-1.x86_64.rpm" "rekall/" "pciutils-3.1.9_pkgconfig.patch" "jre-8u45-linux-x64.rpm" "CentOS-4.4-x86_64-binDVD (1).torrent" "bios.bin.elf" "Unconfirmed 717536.crdownload" "pciutils-3.2.0/" "linux-3.10.73.tar.gz" "OpenAir Timesheet Instructions For Users.docx" "linux-3.10.71.tar.xz" "linux-4.1.13-ori/" "140131.zip" "WacomTablet_6.3.11-3a.dmg" "global-6.4.tar.gz" "linux-4.1.13/" "ubuntu-14.04.3-desktop-amd64.iso" "pciutils-3.2.0_update-dist.patch" "9045custbill.pdf" "resume/" "linux-4.0.2/" "AWS_Overview.pdf" "qemu-2.4.1-nic/" "cd.iso" "vxe.tar.gz" "ruby-2.2.3/" "../" "linux-4.0.2.tar.xz" "aggrement.pdf" "jdk-8u45-linux-x64.tar.gz" "udev-182.tar.xz" "seabios-1.7.5/" "COPYING" "aliedit.sh" "qemu-2.4.1-ori/" "ati-driver.iso.gz" "linux-4.1.15/" "qemu-0.15.0.tar.gz" "plugin/" "CentOS-4.4.ServerCD-x86_64.iso" "test.txt" "eclipse/" "Python-2.7.10.tar.xz" "TV-resource.txt" "linux-4.1.15.tar.xz" "Henrico County _ One Time Payment.pdf" "global-6.5.2.tar.gz" "Motivation.pdf" "virtio-win-0.1.102.iso" "pciutils.spec" "Virginia Commonwealth University Mail - To Min Li__Invitation letter from Journal of Computer Technology and Application, USA.pdf" "unvbasicvapp__9411005__ova__en__sp0__1.ova" "kvm/" "淘宝开店上架费怎么算.docx" "OpenGLES20ProgrammingGuide.pdf" "google-chrome-stable_current_x86_64.rpm" "DataStructureAndAlgorithmicThinkingWithPython/" "lesson24.ppt" "RSU.pdf" "ez_setup.py" "cap2-win7-sp1.flv" "openSUSE-Leap-42.1-DVD-x86_64.iso" "Python-2.7.10/" "baselibs.conf" "qemu-0.15.0/" "conference-ranking.pdf" "virglrenderer/" "Your Print at Home Ticket From Fandango.pdf" "ruby-2.2.3.tar.gz" "64-ia-32-architectures-software-developer-manual-325462.pdf" "niw.zip" "3.2.0-4-amd64.gz" "./" "qemu-2.4.1/" "aliedit.tar.gz" "peng-liu-vita.pdf" "udev-182/")
+
+ ("/home/" (22114 4564 20250 374000) "phungte.ha/" "lost+found/" "virtio-log.txt" "build/" "../" "min.li/" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
