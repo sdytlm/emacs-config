@@ -1,0 +1,11 @@
+(require-package 'sr-speedbar)
+;(setq sr-speedbar-right-side nil)
+(setq sr-speedbar-width 18)
+(setq dframe-update-speed t)
+(setq speedbar-show-unkown-files t)
+(global-set-key (kbd "<f5>")
+    (lambda()
+          (interactive)
+          (sr-speedbar-toggle)))
+
+(provide 'init-speedbar)
