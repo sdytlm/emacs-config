@@ -39,15 +39,14 @@
 ;; emacs ide-config
 (require 'init-ide-utils)
 ;; emacs yasnippet
-(require 'init-yasnippet)
+;;(require 'init-yasnippet)
+;; config C code style by yasnippet
+;;(add-hook 'c-mode-common-hook 'hs-minormode)
+(defun show-file-name ()
+  "Show the full path file name in the minibuffer."
+  (interactive)
+  (message (buffer-file-name)))
 
-;; Config indent-tab
-(setq default-tab-width 4)
-
-(setq-default indent-tabs-mode nil)
-
-(setq c-default-style "linux")
-
-(setq c-basic-offset 4)
+(global-set-key [C-f1] 'show-file-name) ; Or any other key you want
 
 (provide 'init)

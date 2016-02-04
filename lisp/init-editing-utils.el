@@ -16,7 +16,7 @@
  compilation-scroll-output t
  delete-selection-mode t
  grep-scroll-output t
- indent-tabs-mode nil
+ indent-tabs-mode t
  line-spacing 0.2
  make-backup-files nil
  mouse-yank-at-point t
@@ -47,22 +47,17 @@
 ;; some personal key bindings
 ;; (global-set-key (kbd "C-c r") 'replace-string)
 
-;; newline behavior
-(global-set-key (kbd "RET") 'newline-and-indent)
-(defun sanityinc/newline-at-end-of-line ()
-  "Move to end of line, enter a newline, and reindent."
-  (interactive)
-  (move-end-of-line 1)
-  (newline-and-indent))
-
-(global-set-key (kbd "<S-return>") 'sanityinc/newline-at-end-of-line)
-
 ;; change yes-or-no to y-or-n
-;; (fset 'yes-or-no-p 'y-or-n-p)
+; (fset 'yes-or-no-p 'y-or-n-p)
+
+;; display function name
+(add-hook 'my-mode-hook 'imenu-add-menubar-index)
+(which-function-mode 1)
+
 
 ;; display time
-(display-time-mode t)
-(setq display-time-24hr-format t)
+;; (display-time-mode t)
+;; (setq display-time-24hr-format t)
 
 ;; display line number
 ;; (require 'linum)

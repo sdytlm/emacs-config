@@ -1,17 +1,24 @@
 
 ;; ----- smex-history -----
 (
- grep
  eshell
- cd
- 5x5
- arp
- dbx
- dig
+ shell
+ delete-matching-lines
+ tabify
+ auto-fill-mode
+ tool-bar-mode
+ grep
 )
 
 ;; ----- smex-data -----
 (
- (eshell . 5)
+ (eshell . 17)
  (grep . 3)
+ (shell . 2)
+ (tool-bar-mode . 2)
+ (set-gnu-style . 2)
+ (set-linux-style . 3)
+ (tabify . 3)
+ (auto-fill-mode . 2)
+ (delete-matching-lines . 2)
 )

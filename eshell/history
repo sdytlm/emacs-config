@@ -1,67 +1,128 @@
+git add .
+git commit -a -m "theme update"
+pwd
+cd lisp/
+git add .
+git commit -a -m "theme update"
+cd ..
+git add lisp/
+git commit -a -m "theme update"
+git push
+cd /home/min.li/Desktop/
+ls
+ssh -X -i "minliskey" ubuntu@54.213.173.43
+ls
+ls m*
+ssh -X -i minliskey.pem ubuntu@54.213.173.43
+ls
+cd /home/min.li/Desktop/
+ls
+cd ../Downloads/
+ls
+cd qemu-2.5.0/
+ls
+gcc test.c
+./a.out 
+emacs ~/.emacs.d/init.el 
+emacs
+ls
+cd..
+cd ..
+ls
+tar -xvf qemu-2.5.0.tar.bz2 qemu-2.5.0-ori
+mv qemu-2.5.0/ qemu-2.5.0-scsi
+tar -xvf qemu-2.5.0.tar.bz2
+cp qemu-2.5.0/hw/i386/pc.c qemu-2.5.0-scsi/hw/i386/
+qemu-2.5.0
+ls
+make
+cd ..
+cd qemu-2.5.0-scsi/
+make
+make clean
+./configure --target-list=x86_64-softmmu
+make
+make install
+ls
+cd /home/min.li/
 ls
 cd Desktop/
 ls
-cd Desktop/
+cd ../Downloads/
+ls
+cd qemu-2.5.0-scsi/
+ls
+cd /data/images/
+ls
+cd qemu-image/
+ls
+cd /data/images/qemu-image/
+ls
+sh play-net.sh 
+sh play-net.sh 
 ls
 cd ..
 cd /home/min.li/Downloads/
 ls
-ls Wa*
-mkisofs -o cd.iso WacomTablet_6.3.11-3a.dmg
-cp cd.iso /data/images/osx-10.9/
-cd /data/images/osx-10.8.2-new/
-cd ../osx-10.9/
+cd qemu-2.5.0/
 ls
 ls
 cd ..
-ls
-vim init-speedbar.el 
-ls
+cd qemu-2.5.0-scsi/
 ls
 ls
-cd ..
 ls
+cd /data/images/qemu-image/
 ls
-cd ..
-cd /home/min.li/
+vim play-net.sh 
+whereis qemu-system-x86_64
+ls /usr/local/bin/qemu-system-x86_64 
+ls -l /usr/local/bin/qemu-system-x86_64 
+~                                                                               NORMAL  play-net.shunix │ utf-8 │ sh │  92%  LN  23:427:q
+sh play-net.sh 
+sh play-net.sh 
+PCI: map device bdf=00:07.0  bar 0, addr 0000c600, size 00000040 [io]
+sh play-net.sh 
+sh play-net.sh 
+sh play-net.sh 
+sh play-net.sh 
 ls
-cd Downloads/qemu-2.5.0/
+cd /home/min.li/Downloads/
 ls
-ls
-cd ~/.emacs.d/
-ls
-grep hs-minor-mode -rws ./
-ls
-cd lisp/editing-utils/
-ls
-cd ..
-ls
-grep linux -rws ./
-grep require -rws ./
-grep "c-default-style" -rws ./
-ls
-git init
-cd ..
-git init
-git add init.el 
-git commit -m "add init.el"
-git remote add origin https://github.com/sdytlm/emacs-config.git
-git push -u origin master
-ls
-git add lisp/
-git commit -a -m "add other lisp config"
-git push
-ls
-cd lisp/
-ls
-cat init-theme.el 
+cd qemu-2.5.0/
 ls
 cd ..
+cd qemu-2.5.0-scsi/
 ls
-cd themes/
+cd roms/
 ls
-cd emacs-color-theme-solarized/
+cd seabios/
+ls
+cd builds/
+ls
+cd seabios-256k/
+ls
+cd src/
 ls
 cd ..
 cd ..
+cd ..
 ls
+cd builds/
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+make distclean
+./configure --target-list==x86_64-softmmu
+./configure --target-list=x86_64-softmmu
+cd roms/
+make bios CONFIG_ROM_SIZE=256
+cd ..
+make
+make install
+cd /data/images/qemu-image/
+sh play-net.sh 
