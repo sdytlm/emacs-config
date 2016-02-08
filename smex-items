@@ -12,7 +12,7 @@
 
 ;; ----- smex-data -----
 (
- (eshell . 17)
+ (eshell . 20)
  (grep . 3)
  (shell . 2)
  (tool-bar-mode . 2)
